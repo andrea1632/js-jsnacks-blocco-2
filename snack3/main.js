@@ -4,7 +4,7 @@ console.log(numeriInt);
 let somma = 0;
 let snitch = false;
 for (i = 1; i < numeriInt.length; i++){
-    if(numeriInt[i] % 2 != 0){
+    if(i % 2 != 0){
        snitch = true
        somma += numeriInt[i]
     }
